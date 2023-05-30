@@ -12,7 +12,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-@MapperScan("com.experiment.bo.mapper")
+//@MapperScan("com.experiment.bo.mapper")
 public class DemoApplication {
 
 	public static void main(String[] args) {

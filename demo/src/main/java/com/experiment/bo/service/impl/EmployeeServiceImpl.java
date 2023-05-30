@@ -19,9 +19,9 @@ public class EmployeeServiceImpl implements EmployeService{
 
 	@Override
 	public Map<String, String> getEmployeeData() {
-		Map<String,String> employeeData=mapper.getEmployeeData();
-		//new HashMap<String,String>();//
-		//employeeData.put("1", "Ritiz");
+		Map<String,String> employeeData=//mapper.getEmployeeData();
+		new HashMap<String,String>();//
+		employeeData.put("1", "Ritiz");
 		return employeeData;
 	}
 
