@@ -1,5 +1,6 @@
 package com.experiment.bo.service.impl;
 
+import java.util.HashMap;
 import java.util.Map;
 
 import org.mybatis.spring.SqlSessionTemplate;
@@ -13,11 +14,8 @@ import com.experiment.bo.service.EmployeService;
 public class EmployeeServiceImpl implements EmployeService{
 	
 	
-	@Autowired
+	//@Autowired
 	EployeeCustomMapper mapper;
-	
-	@Autowired
-	SqlSessionTemplate sessionTemplate;
 
 	@Override
 	public Map<String, String> getEmployeeData() {
