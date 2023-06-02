@@ -1,13 +1,13 @@
 package com.experiment.bo.service;
 
-import java.util.Map;
+import java.util.List;
 
-import org.springframework.stereotype.Service;
+import com.experiment.bo.dto.EmployeeInfoDto;
 
 
-@Service
+
 public interface EmployeService {
 
-	Map<String, String> getEmployeeData();
+	List<EmployeeInfoDto> getEmployeeData();
 
 }
