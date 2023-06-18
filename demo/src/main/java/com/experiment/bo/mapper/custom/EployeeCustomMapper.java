@@ -12,11 +12,11 @@ import com.experiment.bo.dto.EmployeeInfoDto;
 @Mapper
 public interface EployeeCustomMapper {
 
-	@Select("select employee_id as employeeId,employee_name as employeeName from employees e")
-	@Results(value = {
-			@Result(property = "employeeId", column = "employeeId"),
-			@Result(property = "employeeName", column = "employeeName"),
-			})
+//	@Select("select employee_id as employeeId,employee_name as employeeName from employees e")
+//	@Results(value = {
+//			@Result(property = "employeeId", column = "employeeId"),
+//			@Result(property = "employeeName", column = "employeeName"),
+//			})
 	List<EmployeeInfoDto> getEmployeeData();
 
 }

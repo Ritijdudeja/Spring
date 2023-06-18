@@ -10,3 +10,8 @@ spring:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: 12345678
+    
+#MyBatis settings
+mybatis:
+  #config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath:**/mapper/*/*.xml
