@@ -4,6 +4,6 @@
         
 <mapper namespace="com.experiment.bo.mapper.custom.EployeeCustomMapper">
 <select id="getEmployeeData" resultType="com.experiment.bo.dto.EmployeeInfoDto"> 
-select employee_id as employeeId,employee_name as employeeName from employees e      
+select employee_id as employeeId,first_name as employeeName from employees e      
 </select> 
 </mapper>
