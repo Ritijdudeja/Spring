@@ -13,7 +13,7 @@
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -100,10 +100,9 @@
 			<plugin>
     			<groupId>org.apache.maven.plugins</groupId>
     			<artifactId>maven-compiler-plugin</artifactId>
-   				<configuration>
-        			<source>17</source>
-        			<target>17</target>
-    			</configuration>
+    			<configuration>
+					<release>${java.version}</release>
+				</configuration>
 				</plugin>
 		</plugins>
 	</build>
